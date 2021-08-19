@@ -26,14 +26,14 @@
     </head>
     <body id="page-top">
         <header>
-            <img src="LOGO.png" class="right" width="200">
+            <img src="./images/LOGO.png" class="right" width="200">
             <img src="ELC_LOGO.png" class="left" width="400" >
 
         </header>
           
           <nav>
             <ul>
-              <li><a href="#section-1"> <span><i class="fas fa-circle"></i> <strong>Description</strong></span></a></li>
+              <li><a href="#section-1"> <span><i class="fas fa-circle"></i> <strong>Descpricion</strong></span></a></li>
               <li><a href="#section-7"><span><i class="fas fa-circle"></i> <strong>Solving the problem</strong></span></a></li>
               <li><a href="#section-3"><span><i class="fas fa-circle"></i> <strong>Challenges</strong></span></a></li>
               <!--<li><a href="#section-8"><span><i class="fas fa-circle"></i> <strong>Ethical constraints</strong></span></a></li>-->
@@ -49,6 +49,28 @@
           </nav>
           
           <main>
+            <h1 class="mb-0">
+                        <!-- PALABRA CLAVE AL INICIO DEL TITULO-->
+                        <span class="text-primary">Explorando el espacio a través de la pantalla: Ciencia de datos como apoyo al diseño de misiones espaciales</span>  <!-- TITULO PRINCIPAL-->
+                    </h1>
+            <h2 class="mb-0">Club18: 13,800 millones de años de viaje, la historia del Universo</h2> 
+            <div class="subheading mb-5">
+                        Proyecto final de  <!-- SUBTITULO PRINCIPAL-->
+                        <a href="https://clubesdeciencia.mx/clubes-2021/">Clubes de Ciencia 2021</a>   <!-- AÑADIR LINK A PAGINA DE CLUBES-->
+              </div>
+            
+            <div> La exploración espacial ha jugado un papel importante en la historia de la humanidad. Gracias a ellos cada uno de nosotros tiene al alcance de sus manos 
+              imágenes de objetos que se localizan a cientos o miles de kilómetros de distancia de nosotros y no solo eso, también nos ha llevado a pensar en viajar a otros
+              planetas o inclusive a otras galaxias. Pero dinos ¿realmente conoces que implica un viaje espacial o que ciencias están de tras de la uno? Siempre es importante
+              conocer los fundamentos y un poco de historia, por eso en el Club 18: 13,800 millones de años de viaje, la historia del Universo, nos platicaron acerca de cuáles
+              son los componentes principales del cosmos y cómo tenemos evidencia de ellos gracias a misiones espaciales como el telescopio Hubble o el satélite Planck. También 
+              vimos el papel de las futuras misiones como LISA y la detección de ondas gravitacionales.    <!-- AÑADIR LINK A PAGINA DE COLABOCRACIÓN-->    
+            </div>
+            
+            <div class="subheading mb-3">Si quieres sumergirte un poco en lo que vimos estas dos semanas te recomendamos el siguiente video.</div> <!-- SUBTITULO DEL SEGUNDO SUBTITULO-->
+                        </div>
+
+            <div class="flex-shrink-0"><span class="text-primary"><!--inicia video--><iframe width="560" height="315" src="https://www.youtube.com/embed/VYxYuaDvdM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--termina video--> </span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)  CAMBIO POR VIDEO-->
             <section id="section-1">
               <h2><i class="fas fa-plus-square"></i></i> Description</h2>
               <!-- <h3>According to the conclusion of Lu's study [1], there's an existing risk of COVID-19 infection in relation with indoor air flow.
@@ -104,7 +126,35 @@
               <li>Offer standard structures for a quicker simulation.</li>
               <li>Recognising the establishments that checked their flow.</li>
               <li>Adding specified data of COVID-19 spread in a room.</li> -->
-              <img src="500.PNG">
+              <h3 class="mb-0">Visualualizando la UCS Satellite Database </h3> <!-- NOMBRE DEL PRIMER SUBTITULO-->
+              <img alt="image" class="img-fluid rounded-0" src="500.PNG">
+              <img alt="image" class="img-fluid rounded-0" src="./images/LEO_sats.png"width="1200" height="500"/>
+              <div>Con la información contenida en el dataset de la USC podemos construir una representación de la localización de los sat1elites 
+                según la altura a la cual se encuentran de la Tierra. Y como se observa en la imagen se arriba la mayoría se encuentra. Como se observa
+                en la figura de “Satélites activos en órbita baja \ terrestre por debajo de 1000 km\ 01 May 2021”,
+                la mayor concentración de satélites radica entre los 100 y 400 km por encima de la Tierra, siendo evidente que debajo de la linea de Karman
+                que límite entre atmósfera y espacio exterior, no hay satelites.  ,</p> <!-- INSERTAR SUBTEXTO-->
+                        </div>
+              <h3 class="mb-0">Analizando la UCS Satellite Database. ¿Qué información podemos obetner? </h3> <!-- NOMBRE DEL SEGUNDO SUBTITULO-->
+              <div class="subheading mb-3">Orbitas más utilizadas</div>
+              <img alt="image" class="img-fluid rounded-0" src="./images/class.png">
+              <div>Los 4084 satelites que la base de datos del USC nos proporciona presentan ya sea orbita de clase LEO, GEO, Eliptica o MEO.Si se realiza un histograma de frecuencias
+               considerando el tipo de orbita, podemos observar que los satelites con orbitas tipo LEO son los más comunes con más de 3000 ejemplares. Las orbitas LEO o Low Earth Orbit se 
+                encuentran relativamente cerca de la superficie de la Tierra, a una altitud de menos de 1000 km, pero podría estar tan bajo como 160 km sobre la Tierra.
+                Seguido tenemos a los tipo GEO y por último a los tipo LEO</p> <!-- INSERTAR SUBTEXTO-->
+                        </div>
+              <div class="subheading mb-3">Localización de los satelites con orbitas GEO</div>
+             
+              <img alt="image" class="img-fluid rounded-0" src="./images/localitation.png" width="800" height="500"/>
+            <div>Los satélites con orbitas GEO u orbitas geoestacionarias son aquellos que necesitan permanecer constantemente sobre un lugar particular de la Tierra, como los
+               satélites de telecomunicaciones y monitoreo del clima. De esta forma, se puede fijar una antena en la Tierra para que permanezca siempre apuntando hacia ese satélite 
+               sin moverse. Como se ve en el histograma de longitudes estos se encuentran ampliamente repartidos por los dos hemisferios el planeta, siendo a los -100 grados, la coordenada 
+               con mayor número de satélites a esa altura.</p> <!-- INSERTAR SUBTEXTO-->
+                        </div>
+              <h3 class="mb-0">Viajando a Jupiter desde la Tierra en el 2026 </h3> <!-- NOMBRE DEL TERCER SUBTITULO-->
+              <img alt="image" class="img-fluid rounded-0" src="./images/jupiter.png" width="800" height="500"/>
+              
+
             </h3>
             </ul> 
             
@@ -123,6 +173,16 @@
             </section>
             <section id="section-6">
               <h2><i class="fas fa-plus-square"></i> The team</h2>
+              <div class="content p-3">
+            <h3><strong>Alejandro Ruiz Diego</strong></h3>
+            <p>Estudiante </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 text-left">
+        <div class="fdb-box p-0">
+          <img alt="image" class="img-fluid rounded-0" src="./images/Alejandro.jpg" width="300" height="300"/>
+
               <!-- <div class="row">
                  <div class="column">
                     <figure class="team">
